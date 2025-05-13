@@ -18,7 +18,11 @@ namespace project110
                 InitializeComponent();
             }
 
-            
+            private void BtnHome_Click(object sender, EventArgs e)
+            {
+                Form1 main = new Form1();
+                main.Show();
+            }
 
             private void BtnTxtEnc_Click(object sender, EventArgs e)
             {
@@ -27,7 +31,7 @@ namespace project110
 
                 if (string.IsNullOrWhiteSpace(input)) return;
 
-                char[] chars = input.ToCharArray(); 
+                char[] chars = input.ToCharArray();
 
                 for (int i = 0; i < chars.Length; i++)
                 {

@@ -21,7 +21,6 @@ namespace project110
         {
             Page1ForText textForm = new Page1ForText();
             textForm.Show();
- 
         }
 
         private void BtnPhoto_Click(object sender, EventArgs e)
